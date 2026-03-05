@@ -6,4 +6,16 @@
     </style>
 
     <style name="Theme.HelloWorld" parent="Base.Theme.HelloWorld" />
+
+    <!-- Light mode -->
+    <style name="Screen">
+        <item name="android:background">#FFFFFFFF</item>
+    </style>
+    <style name="Text">
+        <item name="android:textColor">#00000000</item>
+    </style>
+    <style name="barra">
+        <item name="android:background">#ffc20f</item>
+        <item name="android:textColor">#00000000</item>
+    </style>
 </resources>

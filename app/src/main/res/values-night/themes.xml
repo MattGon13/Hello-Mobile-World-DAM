@@ -1,7 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HelloWorld" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.HelloWorld" parent="Theme.Material3.DayNight">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <!-- Dark mode -->
+    <style name="Screen">
+        <item name="android:background">#494949</item>
+    </style>
+    <style name="Text">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="barra">
+        <item name="android:background">#ffc20f</item>
+        <item name="android:textColor">#FFFFFFFF</item>
     </style>
 </resources>
