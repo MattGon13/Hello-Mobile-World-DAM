@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HelloWorld" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.HelloWorld" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
@@ -17,5 +17,18 @@
     <style name="barra">
         <item name="android:background">#ffc20f</item>
         <item name="android:textColor">#00000000</item>
+    </style>
+    <style name="CalenderBackground">
+        <item name="android:background">@color/azulBebe</item>
+    </style>
+    <style name="CalenderDays">
+        <item name="android:textColor">@color/lilas</item>
+        <item name="android:weekNumberColor">@color/azul</item>
+    </style>
+    <style name="CalenderWeek">
+        <item name="android:textColor">@color/azul</item>
+    </style>
+    <style name="CalenderMonthYear">
+        <item name="android:textColorPrimary">#000000</item>
     </style>
 </resources>

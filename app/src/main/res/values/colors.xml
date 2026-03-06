@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="yellow">#ffc20f</color>
+    <color name="lilas">#8C6CA4</color>
+    <color name="azulBebe">#CDD8EC</color>
+    <color name="azul">#85CBF7</color>
+    <color name="perola">#FAEEDD</color>
 </resources>

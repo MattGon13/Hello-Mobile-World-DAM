@@ -2,7 +2,11 @@ package dam_a51706.helloworld
 
 import android.annotation.SuppressLint
 import android.content.SharedPreferences
+import android.media.Image
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import android.widget.ImageView
 import android.widget.Switch
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -53,6 +57,26 @@ class MainActivity : AppCompatActivity() {
                 editor.putBoolean("night_mode", true)
             }
             editor.apply()
+        }
+
+        val r2d2= findViewById<ImageView>(R.id.imageView)
+        val c3po= findViewById<ImageView>(R.id.imageView2)
+        r2d2.visibility= View.VISIBLE
+        c3po.visibility= View.INVISIBLE
+
+        val button= findViewById<Button>(R.id.button)
+        var change= false
+        button.setOnClickListener {
+            if(change){
+                r2d2.visibility= View.VISIBLE
+                c3po.visibility= View.INVISIBLE
+                change= false
+            }
+            else{
+                c3po.visibility= View.VISIBLE
+                r2d2.visibility= View.INVISIBLE
+                change= true
+            }
         }
     }
 }

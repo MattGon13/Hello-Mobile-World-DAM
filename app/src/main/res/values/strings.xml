@@ -4,4 +4,6 @@
     <string name="my_first_app">My First App</string>
     <string name="r2d2_from_star_wars">R2d2 from star wars</string>
     <string name="activity_oncreate_msg">\Activity %1$s onCreate\</string>
+    <string name="change">Change</string>
+    <string name="c3po_from_starwars">C3po from starwars</string>
 </resources>

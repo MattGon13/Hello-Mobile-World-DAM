@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HelloWorld" parent="Theme.Material3.DayNight">
+    <style name="Base.Theme.HelloWorld" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
@@ -9,11 +9,20 @@
     <style name="Screen">
         <item name="android:background">#494949</item>
     </style>
-    <style name="Text">
-        <item name="android:textColor">#FFFFFFFF</item>
-    </style>
     <style name="barra">
         <item name="android:background">#ffc20f</item>
-        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="CalenderBackground">
+        <item name="android:background">@color/perola</item>
+    </style>
+    <style name="CalenderDays">
+        <item name="android:textColor">@color/azul</item>
+        <item name="android:weekNumberColor">@color/lilas</item>
+    </style>
+    <style name="CalenderWeek">
+        <item name="android:textColor">@color/lilas</item>
+    </style>
+    <style name="CalenderMonthYear">
+        <item name="android:textColorPrimary">@color/azulBebe</item>
     </style>
 </resources>
